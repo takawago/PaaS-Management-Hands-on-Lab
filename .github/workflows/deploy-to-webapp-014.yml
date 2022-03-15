@@ -61,6 +61,6 @@ jobs:
         with:
           app-name: '${{ github.event.inputs.AZURE_WEBAPP_NAME }}'
           slot-name: 'production'
-          publish-profile: ${{ secrets.AZURE_WEBAPP_PUBLISH_PROFILE }}
+          publish-profile: ${{ secrets.AZURE_WEBAPP_PUBLISH_PROFILE_014 }}
           package: .
 
